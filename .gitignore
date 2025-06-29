@@ -1,0 +1,32 @@
+# Ignore node_modules and environment files
+/backend/node_modules/
+backend/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Dependency lock files (optional)
+yarn.lock
+pnpm-lock.yaml
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Build output (in case of frontend build added later)
+frontend/dist/
+frontend/build/
+
+# Git backup files
+*.orig
